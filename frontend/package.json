@@ -1,0 +1,54 @@
+{
+  "name": "frontend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.jsx",
+  "scripts": {
+    "build": "webpack -p --progress --config webpack.config.js",
+    "dev-build": "webpack --progress -d --config webpack.config.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "webpack --progress -d --config webpack.config.js --watch"
+  },
+  "keywords": [
+    "fullstack",
+    "template",
+    "python",
+    "react",
+    "npm",
+    "webpack"
+  ],
+  "author": "Ky Tran",
+  "license": "ISC",
+  "babel": {
+    "presets": [
+      "es2015",
+      "react"
+    ]
+  },
+  "devDependencies": {
+    "axios": "^0.18.0",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "bootstrap": "^4.2.1",
+    "css-loader": "^1.0.1",
+    "extract-text-webpack-plugin": "^2.1.2",
+    "file-loader": "^1.1.11",
+    "install": "^0.12.2",
+    "jquery": "^3.3.1",
+    "npm": "^6.7.0",
+    "react": "^16.7.0",
+    "react-bootstrap": "^0.32.4",
+    "react-dom": "^16.7.0",
+    "react-graph-vis": "^1.0.2",
+    "react-router": "^4.3.1",
+    "react-router-dom": "^4.3.1",
+    "reactstrap": "^6.5.0",
+    "style-loader": "^0.21.0",
+    "superagent": "^3.8.3",
+    "webpack": "^3.12.0",
+    "webpack-bundle-analyzer": "^2.13.1",
+    "webpack-material-design-icons": "^0.1.0"
+  }
+}
